@@ -12,43 +12,61 @@ startDropbox() {
   /bin/sleep 5
 }
 
-# linkToDropbox LocalFolder DropboxFolder
+# linkToDropbox LocalFileOrFolder DropboxFileOrFolder
 linkFromDropbox() {
 
   # Also move hidden files.
   shopt -s dotglob
 
-  local local_dir="${1}"
+  local localPath="${1}"
   local dropbox_root="$(getDropboxDir)"
 
   # does the dropbox folder exists
   if [ -d "${dropbox_root}" ]; then
 
     # set final dropbox path
-    local dropbox_dir="${dropbox_root}/${2}"
+    local dropboxPath="${dropbox_root}/${2}"
 
     # is the local dir not already a link?
-    if [ -L "${local_dir}" ]; then
-      echo -b "Folder already linked from Dropbox (${local_dir})"
+    if [ -L "${localPath}" ]; then
+      echo -b "Input already linked from Dropbox (${localPath})"
     else
 
-      if [ -d "${dropbox_dir}" ]; then
+      if [ -d "${dropboxPath}" ]; then
 
         # delete local folder
-        if [ -d "${local_dir}" ]; then
-        	deleteFolder "${local_dir}"
+        if [ -d "${localPath}" ]; then
+        	deleteFs "${localPath}"
         fi
 
         # check if local folder is gone
-        if [ ! -d "${local_dir}" ]; then
-          echo -g "Linking ${local_dir} from ${dropbox_dir}…"
-          linkToDestination "${dropbox_dir}" "${local_dir}"
+        if [ ! -d "${localPath}" ]; then
+          echo -g "Linking ${localPath} from ${dropboxPath}…"
+          linkToDestination "${dropboxPath}" "${localPath}"
       	else
-          echo -r "Local folder couldn't be deleted (${local_dir})"
+          echo -r "Local folder couldn't be deleted (${localPath})"
         fi
       else
-      	echo -r "Folder on Dropbox doesn't exists (${dropbox_dir})"
+        if [ -f "${dropboxPath}" ]; then
+
+          # delete local file
+          if [ -f "${localPath}" ]; then
+          	deleteFs "${localPath}"
+          fi
+
+          # check if local file is gone
+          if [ ! -f "${localPath}" ]; then
+            echo -g "Linking ${localPath} from ${dropboxPath}…"
+            linkToDestination "${dropboxPath}" "${localPath}"
+        	else
+            echo -r "Local file couldn't be deleted (${localPath})"
+          fi
+        else
+      	  echo -r "Link destination on Dropbox doesn't exists (${dropboxPath})"
+        fi
       fi
     fi
+  else
+    echo -r "Dropbox Folder doesn't exists (${dropbox_root})"
   fi
 }
