@@ -28,11 +28,15 @@ brew install nvm
 brew install jq
 brew install wget
 brew install imapfilter
+brew install bogofilter
 brew install pandoc
 # command line tool for managing dock items 
 brew install dockutil
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
+brew install imagemagick --use-jpeg2000, --use-cms, --use-rsvg, --use-libtiff, --with-fontconfig
+brew install ghostscript
+
 
 # Apple Store -cli
 brew install mas
