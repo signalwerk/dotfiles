@@ -14,7 +14,6 @@
 # install plugins
 echo "Atom Packages install"
 apm install Sublime-Style-Column-Selection
-apm install atom-beautify
 apm install highlight-line
 apm install highlight-selected
 apm install lint
@@ -22,4 +21,4 @@ apm install linter
 apm install linter-eslint
 apm install minimap
 apm install pigments
-apm install terminal-plus
+apm install prettier-atom
