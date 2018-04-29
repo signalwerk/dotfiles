@@ -37,6 +37,9 @@ brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx 
 brew install imagemagick --use-jpeg2000, --use-cms, --use-rsvg, --use-libtiff, --with-fontconfig
 brew install ghostscript
 
+# inkscape needs xquartz
+brew cask install xquartz
+brew cask install inkscape
 
 # Apple Store -cli
 brew install mas
