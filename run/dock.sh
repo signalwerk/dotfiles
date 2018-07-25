@@ -72,7 +72,7 @@ if type dockutil &>/dev/null; then
 
   add_to_dock                                       -p '/Applications/Mail.app'
 
-  add_to_dock                   -n '1Password'      -p '/Applications/1Password 6.app'
+  add_to_dock                   -n '1Password'      -p '/Applications/1Password 7.app'
 
   add_to_dock                                       -p '/Applications/Atom.app'
   add_to_dock                                       -p '/Applications/BBEdit.app'
