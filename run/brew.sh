@@ -15,7 +15,7 @@ brew cask install paw
 brew cask install simplenote
 brew cask install virtualbox
 brew cask install monodraw
-brew cask install mongohub
+# brew cask install mongohub
 
 # right click symbolic link
 brew cask install symboliclinker
