@@ -25,12 +25,13 @@ eval "$(/usr/bin/find "./include" -iname '*.sh' -exec echo . '{};' \;)"
 . ./run/mac.sh
 . ./run/mail.sh
 . ./run/dock.sh
-. ./run/menubar.sh
+##### not longer working . ./run/menubar.sh
 . ./run/finder.sh
 . ./run/spam.sh
 . ./run/python.sh
 . ./run/atom.sh
-. ./run/indesign.sh
+. ./run/git.sh
+#### no . ./run/indesign.sh
 
 
 

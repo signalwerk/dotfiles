@@ -19,6 +19,7 @@ if type dockutil &>/dev/null; then
   # echo -b 'Updating App Store Applications …'
   # mas upgrade
 
+  mas_install 1179623856 'Pastebot'
   mas_install 890031187 'Marked 2'
   mas_install 497799835 'Xcode'
   mas_install 497270775 'Screenshot Helper'
@@ -29,12 +30,10 @@ if type dockutil &>/dev/null; then
   mas_install 824171161 'Affinity Designer'
   mas_install 803453959 'Slack'
   mas_install 668208984 'GIPHY Capture. The GIF Maker'
-  mas_install 1179623856 'Pastebot'
   mas_install 520774149 'String Replacer'
   mas_install 412448059 'ForkLift - File Manager and FTP/SFTP/WebDAV/Amazon S3 client'
   mas_install 568494494 'Pocket'
   mas_install 848311469 'Write - Best Note Taking App'
-  mas_install 1179623856 'Pastebot'
 
 else
   echo 'ERROR! mas not installed'

@@ -66,9 +66,15 @@ if type dockutil &>/dev/null; then
 
   add_to_dock                                       -p '/Applications/Utilities/Terminal.app'
 
+  add_to_dock                                       -p '/Applications/FontExplorer X Pro.app'
+
   add_to_dock                   -n 'Chrome'         -p '/Applications/Google Chrome.app'
   add_to_dock                                       -p '/Applications/Firefox.app'
   add_to_dock                                       -p '/Applications/Safari.app'
+
+
+  add_to_dock                                       -p '/Applications/Slack.app'
+
 
   add_to_dock                                       -p '/Applications/Mail.app'
 
@@ -87,6 +93,7 @@ if type dockutil &>/dev/null; then
   add_to_dock                                       -p '/Applications/Paw.app'
   add_to_dock                                       -p '/Applications/Bee.app'
   add_to_dock                                       -p '/Applications/SQLPro for SQLite.app'
+  add_to_dock                                       -p '/Applications/Spotify.app'
 
 
   add_to_dock                                       -p '/Applications/ForkLift.app'

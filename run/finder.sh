@@ -54,7 +54,6 @@ fi
 $mysides list
 $mysides remove "All My Files" &> /dev/null
 $mysides remove "Documents" &> /dev/null
-$mysides remove "Downloads" &> /dev/null
 
 
 killall "Finder" &> /dev/null

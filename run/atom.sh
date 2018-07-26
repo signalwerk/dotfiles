@@ -20,5 +20,5 @@ apm install lint
 apm install linter
 apm install linter-eslint
 apm install minimap
-apm install pigments
+# apm install pigments
 apm install prettier-atom

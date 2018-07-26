@@ -1,8 +1,11 @@
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install atom
+
+brew cask install arq
 brew cask install tower
 
+brew cask install google-backup-and-sync
 brew cask install firefox
 brew cask install whatsapp
 brew cask install bbedit
@@ -15,22 +18,24 @@ brew cask install paw
 brew cask install simplenote
 brew cask install virtualbox
 brew cask install monodraw
+brew cask install Kaleidoscope
+brew cask install alfred
+brew cask install fontexplorer-x-pro
 # brew cask install mongohub
 
 # right click symbolic link
 brew cask install symboliclinker
-brew cask install arq
 brew cask install spotify
 brew cask install vagrant
 
-brew install node
 brew install nvm
+brew install yarn
 brew install jq
 brew install wget
 brew install imapfilter
 brew install bogofilter
 brew install pandoc
-# command line tool for managing dock items 
+# command line tool for managing dock items
 brew install dockutil
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
