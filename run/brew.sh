@@ -35,6 +35,7 @@ brew install wget
 brew install imapfilter
 brew install bogofilter
 brew install pandoc
+brew install rename
 # command line tool for managing dock items
 brew install dockutil
 brew install lftp
