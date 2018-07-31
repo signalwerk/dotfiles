@@ -28,6 +28,8 @@ brew cask install symboliclinker
 brew cask install spotify
 brew cask install vagrant
 
+brew cask install keka
+
 brew install nvm
 brew install yarn
 brew install jq
