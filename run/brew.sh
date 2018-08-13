@@ -22,6 +22,7 @@ brew cask install Kaleidoscope
 brew cask install alfred
 brew cask install fontexplorer-x-pro
 # brew cask install mongohub
+brew cask install imageoptim
 
 # right click symbolic link
 brew cask install symboliclinker
