@@ -24,6 +24,9 @@ brew cask install fontexplorer-x-pro
 # brew cask install mongohub
 brew cask install imageoptim
 
+brew cask install sketch
+
+
 # right click symbolic link
 brew cask install symboliclinker
 brew cask install spotify
