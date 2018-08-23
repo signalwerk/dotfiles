@@ -55,3 +55,6 @@ brew cask install inkscape
 
 # Apple Store -cli
 brew install mas
+
+## rotate jpg
+brew install jhead
