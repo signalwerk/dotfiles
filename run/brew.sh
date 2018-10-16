@@ -11,6 +11,7 @@ brew cask install whatsapp
 brew cask install bbedit
 brew cask install skype
 brew cask install cyberduck
+brew cask install transmit
 brew cask install sourcetree
 brew cask install vlc
 brew cask install transmission
