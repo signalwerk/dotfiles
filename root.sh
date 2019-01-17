@@ -17,7 +17,6 @@ eval "$(/usr/bin/find "./include" -iname '*.sh' -exec echo . '{};' \;)"
 
 
 
-
 # run all parts of the setup
 . ./run/brew.sh
 . ./run/node.sh
@@ -25,13 +24,12 @@ eval "$(/usr/bin/find "./include" -iname '*.sh' -exec echo . '{};' \;)"
 . ./run/mac.sh
 . ./run/mail.sh
 . ./run/dock.sh
-##### not longer working . ./run/menubar.sh
 . ./run/finder.sh
 . ./run/spam.sh
 . ./run/python.sh
 . ./run/atom.sh
 . ./run/git.sh
-#### no . ./run/indesign.sh
+
 
 
 
