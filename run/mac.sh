@@ -19,8 +19,20 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 # Never go into computer sleep mode
 sudo systemsetup -setcomputersleep Off > /dev/null
 
-# Disable smart quotes as they’re annoying when typing code
+# Disable smart quotes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable smart dashes
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+# Disable auto capitalize
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+# Disable auto period insert
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
 
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
@@ -56,12 +68,28 @@ defaults write com.apple.addressbook ABShowDebugMenu -bool true
 
 
 
+###############################################################################
+# safari
+###############################################################################
+
+# Show developer tools
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Set Safari's home page to 'about:blank' for faster loading
+defaults write com.apple.Safari HomePage -string "about:blank"
+
+# Show full URL in Safari
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+
 
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 for app in "cfprefsd" \
-	"Dock" "Finder" "Photos" "Address Book" "Calendar" \
+	"Dock" "Finder" "Photos" "Address Book" "Calendar" "Safari" \
 	"SystemUIServer"; do
 	killall "${app}" &> /dev/null
 done

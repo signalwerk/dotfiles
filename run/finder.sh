@@ -12,19 +12,24 @@ defaults write com.apple.finder ShowStatusBar -bool true
 # Finder: Show the ~/Library folder
 chflags nohidden ~/Library
 
-
-# When performing a search, search the current folder by default
+# Finder: When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
-
-# Disable the warning when changing a file extension
+# Finder: Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-
-# Set Desktop as the default location for new Finder windows
+# Finder: Set Desktop as the default location for new Finder windows
 # For other paths, use `PfLo` and `file:///full/path/here/`
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
+
+# Finder: Use column view in all Finder windows by default
+# Four-letter codes for the other view modes: 'icnv', 'clmv', 'Flwv', 'Nlsv'
+defaults write com.apple.finder FXPreferredViewStyle -string clmv
+
+# ----------------------------------------------------------------------------------------
+# Battery Percentage in status bar
+defaults write com.apple.menuextra.battery ShowPercent -bool true
 
 
 # ----------------------------------------------------------------------------------------
@@ -34,6 +39,7 @@ mysides=/usr/local/bin/mysides
 
 # xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
 # sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+# sudo xcodebuild -license
 
 if [ ! -e $mysides ]
   then
@@ -51,9 +57,25 @@ if [ ! -e $mysides ]
 fi
 
 
+
+readlinkf(){ perl -MCwd -e 'print Cwd::abs_path shift' "$1";}
+
+
+WORK_DIR="file://$(readlinkf ~/Dropbox/WORK/)"
+
+echo 'before'
 $mysides list
 $mysides remove "All My Files" &> /dev/null
 $mysides remove "Documents" &> /dev/null
+$mysides remove "Downloads" &> /dev/null
+$mysides remove "Creative Cloud Files" &> /dev/null
 
+$mysides remove "WORK" &> /dev/null
+$mysides remove "CODE_GIT" &> /dev/null
+mysides add "WORK" "file://$(readlinkf ~/Dropbox/WORK/)"
+mysides add "CODE_GIT" "file://$(readlinkf ~/Desktop/DATA/CODE_GIT/)"
+
+echo 'after'
+$mysides list
 
 killall "Finder" &> /dev/null
