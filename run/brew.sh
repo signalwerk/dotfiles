@@ -30,6 +30,7 @@ brew cask install Kaleidoscope
 brew cask install alfred
 brew cask install fontexplorer-x-pro
 brew cask install imageoptim
+brew cask install docker
 
 brew cask install sketch
 
