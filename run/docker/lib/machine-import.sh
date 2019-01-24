@@ -25,6 +25,7 @@ fi
 rm -rf "$machine_name"
 unzip "$machine_archive" -d "$machine_name" > /dev/null
 perl -pi -e "s|__MACHINE__STORAGE_PATH__|$MACHINE_STORAGE_PATH|g" $machine_name/config.json
+mkdir -p "$MACHINE_STORAGE_PATH/machines"
 mv "$machine_name" "$MACHINE_STORAGE_PATH/machines"
 
 echo "Imported $machine_name to docker-machine ($machine_path)"
