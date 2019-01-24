@@ -22,3 +22,4 @@ apm install linter-eslint
 apm install minimap
 # apm install pigments
 apm install prettier-atom
+apm install react

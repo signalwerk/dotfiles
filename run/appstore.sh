@@ -26,16 +26,17 @@ if type dockutil &>/dev/null; then
   mas_install 407963104 'Pixelmator'
   mas_install 586001240 'SQLPro for SQLite - database and coredata manager'
   mas_install 692867256 'Simplenote'
-  mas_install 726099620 'Bee - Issue Tracking made Native'
-  mas_install 824171161 'Affinity Designer'
   mas_install 803453959 'Slack'
   mas_install 668208984 'GIPHY Capture. The GIF Maker'
-  mas_install 520774149 'String Replacer'
   mas_install 412448059 'ForkLift - File Manager and FTP/SFTP/WebDAV/Amazon S3 client'
-  mas_install 568494494 'Pocket'
-  mas_install 848311469 'Write - Best Note Taking App'
+
+  #mas_install 726099620 'Bee - Issue Tracking made Native'
+  #mas_install 824171161 'Affinity Designer'
+  #mas_install 848311469 'Write - Best Note Taking App'
+  #mas_install 568494494 'Pocket'
+  #mas_install 520774149 'String Replacer'
+
 
 else
   echo 'ERROR! mas not installed'
-
 fi

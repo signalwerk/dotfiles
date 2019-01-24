@@ -1,4 +1,4 @@
 # --------------------------------------------------
 # Adobe InDesign preferences
 # --------------------------------------------------
-linkFromDropbox "${preferencesRoot}/Adobe InDesign" "${dropboxSettingsRoot}/Adobe InDesign"
+# linkFromDropbox "${preferencesRoot}/Adobe InDesign" "${dropboxSettingsRoot}/Adobe InDesign"
