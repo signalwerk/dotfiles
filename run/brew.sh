@@ -30,8 +30,10 @@ brew cask install Kaleidoscope
 brew cask install alfred
 brew cask install fontexplorer-x-pro
 brew cask install imageoptim
+brew cask install docker
 
 brew cask install sketch
+brew cask install microsoft-office
 
 
 # right click symbolic link

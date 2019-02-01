@@ -105,7 +105,8 @@ if type dockutil &>/dev/null; then
 
 
   add_to_dock                                       -p '/Applications/Pixelmator.app'
-  add_to_dock                                       -p '/Applications/Affinity Designer.app'
+  add_to_dock                                       -p '/Applications/ImageOptim.app'
+  #add_to_dock                                       -p '/Applications/Affinity Designer.app'
 
 
   add_to_dock                                       -p '/Applications/Arq.app'
