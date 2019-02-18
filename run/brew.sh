@@ -34,7 +34,7 @@ brew cask install docker
 
 brew cask install sketch
 brew cask install microsoft-office
-
+brew cask install teamviewer
 
 # right click symbolic link
 brew cask install symboliclinker
