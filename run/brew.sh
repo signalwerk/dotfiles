@@ -45,6 +45,11 @@ brew cask install spotify
 brew cask install xquartz
 brew cask install inkscape
 
+# install envsubst
+brew install gettext
+brew link --force gettext 
+
+
 brew install nvm
 brew install jq
 brew install wget
