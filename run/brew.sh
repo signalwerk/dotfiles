@@ -8,6 +8,7 @@ brew cask install dropbox
 
 brew cask install arq
 
+brew cask install 1password-cli
 
 # Apple Store -cli
 brew install mas
