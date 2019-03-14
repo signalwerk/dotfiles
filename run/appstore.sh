@@ -32,7 +32,7 @@ if type dockutil &>/dev/null; then
   mas_install 511230166 'Justnotes'
   mas_install 407963104 'Pixelmator'
   mas_install 409203825 'Numbers'
-  mas_install 537211143 'PhotoBulk (2.1)'
+  mas_install 537211143 'PhotoBulk'
 
   #mas_install 1292198261 'iMazing HEIC Converter'
   #mas_install 726099620 'Bee - Issue Tracking made Native'
