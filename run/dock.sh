@@ -83,14 +83,14 @@ if type dockutil &>/dev/null; then
   add_to_dock                                       -p '/Applications/Atom.app'
   add_to_dock                                       -p '/Applications/BBEdit.app'
   add_to_dock                                       -p '/Applications/TextEdit.app'
-  add_to_dock                                       -p '/Applications/String Replacer.app'
+  #add_to_dock                                       -p '/Applications/String Replacer.app'
   #add_to_dock                                       -p '/Applications/Write.app'
   add_to_dock                                       -p '/Applications/Simplenote.app'
   #add_to_dock                                       -p '/Applications/Pocket.app'
 
   add_to_dock                                       -p '/Applications/Tower.app'
   add_to_dock                                       -p '/Applications/SourceTree.app'
-  add_to_dock                                       -p '/Applications/Paw.app'
+  #add_to_dock                                       -p '/Applications/Paw.app'
   #add_to_dock                                       -p '/Applications/Bee.app'
   add_to_dock                                       -p '/Applications/SQLPro for SQLite.app'
   add_to_dock                                       -p '/Applications/Spotify.app'
@@ -114,7 +114,7 @@ if type dockutil &>/dev/null; then
   add_to_dock                                       -p '/Applications/VLC.app'
   add_to_dock                                       -p '/Applications/Screenshot Helper.app'
 
-  add_to_dock                                       -p '/Applications/VirtualBox.app'
+  # add_to_dock                                       -p '/Applications/VirtualBox.app'
 
   # ----------------------------------------------------------------------------------------
 

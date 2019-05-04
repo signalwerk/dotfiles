@@ -30,7 +30,6 @@ if type dockutil &>/dev/null; then
   mas_install 668208984 'GIPHY Capture. The GIF Maker'
   mas_install 412448059 'ForkLift - File Manager and FTP/SFTP/WebDAV/Amazon S3 client'
   mas_install 511230166 'Justnotes'
-  mas_install 407963104 'Pixelmator'
   mas_install 409203825 'Numbers'
   mas_install 537211143 'PhotoBulk'
 

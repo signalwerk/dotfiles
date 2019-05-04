@@ -1,34 +1,31 @@
 #!/bin/sh
 
-# run with 'sh root.sh'
-
-
-dropboxRoot="__PREFS__/data"
-dropboxSettingsRoot="${dropboxRoot}/settings"
-
-applicationSupport="${HOME}/Library/Application Support"
-preferencesRoot="${HOME}/Library/Preferences"
-
-
-
-
-# Load Functions
-eval "$(/usr/bin/find "./include" -iname '*.sh' -exec echo . '{};' \;)"
-
+# Get Dotfiles
+mkdir -p  ~/.dotfiles/
+cd ~/.dotfiles/
+curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/master.tar.gz' | /usr/bin/tar -x --strip-components 1
 
 
 # run all parts of the setup
 . ./run/brew.sh
 . ./run/node.sh
 . ./run/appstore.sh
+
+# can be run withouth the scripts above
+. ./run/ssh.sh
 . ./run/mac.sh
 . ./run/mail.sh
-. ./run/dock.sh
 . ./run/finder.sh
-. ./run/spam.sh
 . ./run/python.sh
-. ./run/atom.sh
 . ./run/git.sh
+. ./run/github.sh
+
+
+
+
+
+. ./run/dock.sh
+. ./run/atom.sh
 
 
 
