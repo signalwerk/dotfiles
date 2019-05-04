@@ -1,21 +1,27 @@
 
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+touch ~/.dotfiles/.brew-installed
 
 brew cask install 1password
 
 brew cask install google-chrome
 
-# Apple Store -cli
+# Apple Store CLI
 brew install mas
+touch ~/.dotfiles/.mas-installed
 
 brew cask install atom
+touch ~/.dotfiles/.atom-installed
+
+# command line tool for managing dock items
+brew install dockutil
+touch ~/.dotfiles/.dockutil-installed
 
 brew cask install tower
 
 brew cask install dropbox
 brew cask install arq
-
 
 brew cask install google-backup-and-sync
 brew cask install firefox
@@ -49,14 +55,15 @@ brew cask install inkscape
 
 
 brew install nvm
+touch ~/.dotfiles/.nvm-installed
+
 brew install jq
 brew install wget
 brew install imapfilter
 brew install pandoc
 brew install rename
 
-# command line tool for managing dock items
-brew install dockutil
+
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora

@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Get Dotfiles
+rm -rf ~/.dotfiles/
 mkdir -p  ~/.dotfiles/
 cd ~/.dotfiles/
 curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/master.tar.gz' | /usr/bin/tar -x --strip-components 1
@@ -9,6 +10,8 @@ curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/m
 # run all parts of the setup
 . ./run/brew.sh
 . ./run/node.sh
+
+# can start pretty early
 . ./run/appstore.sh
 
 # can be run withouth the scripts above
@@ -19,13 +22,13 @@ curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/m
 . ./run/python.sh
 . ./run/git.sh
 . ./run/github.sh
+. ./run/atom.sh
 
 
 
 
 
 . ./run/dock.sh
-. ./run/atom.sh
 
 
 

@@ -1,4 +1,10 @@
 ## add nvm to bash_profile
+
+echo 'node - Waiting for nvm …'
+while [ ! -f ~/.dotfiles/.nvm-installed ]; do sleep 1; done
+
+
+
 echo 'export NVM_DIR="$HOME/.nvm"' >>~/.bash_profile
 echo '. "$(brew --prefix nvm)/nvm.sh"' >>~/.bash_profile
 
