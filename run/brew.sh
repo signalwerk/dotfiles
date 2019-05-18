@@ -87,3 +87,5 @@ brew install bogofilter
 # brew cask install paw
 # brew cask install virtualbox
 # brew cask install vagrant
+# brew cask install java
+
