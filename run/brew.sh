@@ -11,6 +11,9 @@ brew cask install google-chrome
 brew install mas
 touch ~/.dotfiles/.mas-installed
 
+brew cask install vscode
+touch ~/.dotfiles/.vscode-installed
+
 brew cask install atom
 touch ~/.dotfiles/.atom-installed
 
