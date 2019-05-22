@@ -1,6 +1,6 @@
 
 echo 'Apple Store - Waiting for Apple Store CLI …'
-while [ ! -f ~/.dotfiles/.mas-installed ]; do sleep 1; done
+while [ ! -f ~/.dotfiles/.mas--installed ]; do sleep 1; done
 
 echo 'Setup Apple Store programs …'
 
@@ -37,7 +37,7 @@ mas_install 409203825 'Numbers'
 mas_install 537211143 'PhotoBulk'
 
 
-touch ~/.dotfiles/.appstore-installed
+touch ~/.dotfiles/.appstore--installed
 
 #mas_install 1292198261 'iMazing HEIC Converter'
 #mas_install 726099620 'Bee - Issue Tracking made Native'
