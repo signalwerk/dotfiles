@@ -11,15 +11,15 @@ brew cask install google-chrome
 brew install mas
 touch ~/.dotfiles/.mas-installed
 
-brew cask install vscode
-touch ~/.dotfiles/.vscode-installed
+brew cask install visual-studio-code
+touch ~/.dotfiles/.visual-studio-code--installed
 
 brew cask install atom
-touch ~/.dotfiles/.atom-installed
+touch ~/.dotfiles/.atom--installed
 
 # command line tool for managing dock items
 brew install dockutil
-touch ~/.dotfiles/.dockutil-installed
+touch ~/.dotfiles/.dockutil--installed
 
 brew cask install tower
 
