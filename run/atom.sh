@@ -1,5 +1,5 @@
 echo 'atom - Waiting for Atom …'
-while [ ! -f ~/.dotfiles/.atom-installed ]; do sleep 1; done
+while [ ! -f ~/.dotfiles/.atom--installed ]; do sleep 1; done
 
 # install plugins
 echo "Atom Packages install"
