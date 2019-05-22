@@ -9,7 +9,7 @@ brew cask install google-chrome
 
 # Apple Store CLI
 brew install mas
-touch ~/.dotfiles/.mas-installed
+touch ~/.dotfiles/.mas--installed
 
 brew cask install visual-studio-code
 touch ~/.dotfiles/.visual-studio-code--installed
