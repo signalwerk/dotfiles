@@ -1,7 +1,7 @@
 ## add nvm to bash_profile
 
 echo 'node - Waiting for nvm …'
-while [ ! -f ~/.dotfiles/.nvm-installed ]; do sleep 1; done
+while [ ! -f ~/.dotfiles/.nvm--installed ]; do sleep 1; done
 
 
 
