@@ -82,7 +82,8 @@ brew install jhead
 # spam
 brew install bogofilter
 
-
+# vpn 
+brew cask install tunnelblick
 
 # optional
 # ——————————
