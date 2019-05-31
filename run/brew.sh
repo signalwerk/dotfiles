@@ -32,6 +32,8 @@ brew cask install whatsapp
 brew cask install bbedit
 brew cask install skype
 brew cask install cyberduck
+defaults write ch.sudo.cyberduck application.support.path ~/Dropbox/Apps/Cyberduck
+
 brew cask install transmit
 brew cask install sourcetree
 brew cask install vlc
