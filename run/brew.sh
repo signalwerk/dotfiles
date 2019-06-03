@@ -70,6 +70,8 @@ brew install wget
 brew install imapfilter
 brew install pandoc
 brew install rename
+brew install go
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >>~/.bash_profile
 
 
 
