@@ -89,10 +89,14 @@ brew install bogofilter
 # vpn 
 brew cask install tunnelblick
 
-# optional
+# liip
 # ——————————
 brew cask install vagrant
 brew cask install virtualbox
+
+# others
+brew cask install postman
+
 
 # brew cask install mongohub
 # brew cask install paw
