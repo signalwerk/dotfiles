@@ -89,6 +89,13 @@ brew install bogofilter
 # vpn 
 brew cask install tunnelblick
 
+# others
+brew cask install postman
+
+# brew cask install mongohub
+# brew cask install paw
+# brew cask install java
+
 # liip
 # ——————————
 brew cask install vagrant
@@ -97,12 +104,3 @@ brew cask install virtualbox
 # cloudfoundry.org
 brew tap cloudfoundry/tap
 brew install cf-cli
-
-# others
-brew cask install postman
-
-
-# brew cask install mongohub
-# brew cask install paw
-# brew cask install java
-
