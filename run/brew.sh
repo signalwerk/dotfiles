@@ -88,6 +88,7 @@ brew install bogofilter
 
 # vpn 
 brew cask install tunnelblick
+# open -a /Applications/Tunnelblick.app --args  path-to-configuration1   path-to-configuration2   path-to-configuration3
 
 # others
 brew cask install postman
