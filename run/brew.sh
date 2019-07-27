@@ -31,8 +31,18 @@ brew cask install firefox
 brew cask install whatsapp
 brew cask install bbedit
 brew cask install skype
+
 brew cask install cyberduck
-defaults write ch.sudo.cyberduck application.support.path ~/Dropbox/Apps/Cyberduck
+
+# Reset folder path to defaults
+defaults delete ch.sudo.cyberduck application.support.path 
+
+# Delete existing bookmark location
+rm -R ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck
+
+# Dropbox sync to new location using symbolic links 
+ln -s ~/Dropbox/Apps/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
+
 
 brew cask install transmit
 brew cask install sourcetree
