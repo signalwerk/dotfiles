@@ -13,3 +13,4 @@ apm install minimap
 # apm install pigments
 apm install prettier-atom
 apm install react
+apm install shell-it
