@@ -102,6 +102,7 @@ brew cask install tunnelblick
 
 # others
 brew cask install postman
+brew cask install ngrok
 
 # brew cask install mongohub
 # brew cask install paw
