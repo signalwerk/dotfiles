@@ -112,6 +112,7 @@ brew cask install ngrok
 # ——————————
 brew cask install vagrant
 brew cask install virtualbox
+brew tap heroku/brew && brew install heroku
 
 # cloudfoundry.org
 brew tap cloudfoundry/tap
