@@ -103,6 +103,7 @@ brew cask install tunnelblick
 # others
 brew cask install postman
 brew cask install ngrok
+brew cask install google-cloud-sdk
 
 # brew cask install mongohub
 # brew cask install paw
