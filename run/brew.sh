@@ -82,8 +82,7 @@ brew install pandoc
 brew install rename
 brew install go
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >>~/.bash_profile
-
-
+echo 'export GOPATH=$(go env GOPATH)' >>~/.bash_profile
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
