@@ -17,5 +17,10 @@ nvm install 10
 nvm install 12
 nvm alias default 12
 
+npm completion >> ~/.bash_profile
+
+# reload bash profile
+source ~/.bash_profile
+
 # install yarn
 brew install yarn
