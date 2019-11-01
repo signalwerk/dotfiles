@@ -13,4 +13,6 @@ apm install minimap
 # apm install pigments
 apm install prettier-atom
 apm install react
-apm install shell-it
+# apm install shell-it
+apm install language-vuejs
+apm install php-twig
