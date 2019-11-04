@@ -104,6 +104,11 @@ brew cask install postman
 brew cask install ngrok
 brew cask install google-cloud-sdk
 
+# bash tools
+brew install exa
+echo 'alias lls="exa --long --header --git"' >>~/.bash_profile
+
+
 # brew cask install mongohub
 # brew cask install paw
 # brew cask install java
