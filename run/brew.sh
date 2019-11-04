@@ -106,7 +106,7 @@ brew cask install google-cloud-sdk
 
 # bash tools
 brew install exa
-echo 'alias lls="exa --long --header --git"' >>~/.bash_profile
+echo 'alias ll="exa --long --header --git"' >>~/.bash_profile
 
 
 # brew cask install mongohub
