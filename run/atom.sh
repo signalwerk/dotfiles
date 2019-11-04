@@ -16,3 +16,4 @@ apm install react
 # apm install shell-it
 apm install language-vuejs
 apm install php-twig
+apm install git-blame
