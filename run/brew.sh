@@ -105,8 +105,8 @@ brew cask install ngrok
 brew cask install google-cloud-sdk
 
 # bash tools
-brew install exa
-echo 'alias ll="exa --long --header --git"' >>~/.bash_profile
+# brew install exa
+# echo 'alias ll="exa --long --header --git"' >>~/.bash_profile
 
 
 # brew cask install mongohub
