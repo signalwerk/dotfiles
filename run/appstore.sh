@@ -35,11 +35,10 @@ mas_install 668208984 'GIPHY Capture'
 mas_install 511230166 'Justnotes'
 mas_install 409203825 'Numbers'
 mas_install 537211143 'PhotoBulk'
-
+mas_install 1292198261 'HEIC Converter'
 
 touch ~/.dotfiles/.appstore--installed
 
-mas_install 1292198261 'HEIC Converter'
 #mas_install 726099620 'Bee - Issue Tracking made Native'
 #mas_install 824171161 'Affinity Designer'
 #mas_install 848311469 'Write - Best Note Taking App'
