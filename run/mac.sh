@@ -25,14 +25,12 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable smart dashes
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Disable auto capitalize
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 # Disable auto period insert
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
-
 
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true

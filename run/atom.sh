@@ -10,10 +10,15 @@ apm install lint
 apm install linter
 apm install linter-eslint
 apm install minimap
-# apm install pigments
 apm install prettier-atom
 apm install react
-# apm install shell-it
 apm install language-vuejs
 apm install php-twig
 apm install git-blame
+apm install atom-beautify
+apm install fast-eslint
+apm install intentions
+apm install linter-ui-default
+
+# apm install pigments
+# apm install shell-it
