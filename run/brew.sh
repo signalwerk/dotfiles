@@ -34,9 +34,6 @@ brew cask install skype
 
 brew cask install cyberduck
 
-# Reset folder path to defaults
-defaults delete ch.sudo.cyberduck application.support.path 
-
 # Delete existing bookmark location
 rm -R ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck
 
@@ -44,7 +41,7 @@ rm -R ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/d
 ln -s ~/Dropbox/Apps/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
 
 
-brew cask install transmit
+# brew cask install transmit
 brew cask install sourcetree
 brew cask install vlc
 brew cask install transmission
@@ -72,8 +69,8 @@ brew cask install xquartz
 brew cask install inkscape
 
 
-brew install nvm
-touch ~/.dotfiles/.nvm-installed
+# brew install nvm
+# touch ~/.dotfiles/.nvm-installed
 
 brew install jq
 brew install wget
@@ -81,9 +78,9 @@ brew install imapfilter
 brew install pandoc
 brew install fonttools
 brew install rename
-brew install go
-echo 'export PATH=$PATH:$(go env GOPATH)/bin' >>~/.bash_profile
-echo 'export GOPATH=$(go env GOPATH)' >>~/.bash_profile
+# brew install go
+# echo 'export PATH=$PATH:$(go env GOPATH)/bin' >>~/.bash_profile
+# echo 'export GOPATH=$(go env GOPATH)' >>~/.bash_profile
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
@@ -102,8 +99,8 @@ brew cask install tunnelblick
 
 # others
 brew cask install postman
-brew cask install ngrok
-brew cask install google-cloud-sdk
+# brew cask install ngrok
+# brew cask install google-cloud-sdk
 
 # bash tools
 # brew install exa
