@@ -1,14 +1,16 @@
+echo 'node - Waiting brew beeing installed …'
+while [ ! -f ~/.dotfiles/.brew--installed ]; do sleep 1; done
+
 ## add nvm to bash_profile
-
-
 brew install nvm
 touch ~/.dotfiles/.nvm-installed
 
-# echo 'export NVM_DIR="$HOME/.nvm"' >>~/.bash_profile
-# echo '. "$(brew --prefix nvm)/nvm.sh"' >>~/.bash_profile
+# after in your ~/.zshrc or in .bash_profile if your use bash shell:
+echo 'export NVM_DIR="$HOME/.nvm"' >>~/.zshrc
+echo 'source "$(brew --prefix nvm)/nvm.sh"' >>~/.zshrc
 
-# reload bash profile
-# source ~/.bash_profile
+# reload profile
+source ~/.zshrc
 
 # nvm install 0.12
 # nvm install 8
@@ -21,9 +23,7 @@ nvm alias default 12
 npm completion >> ~/.zshrc
 
 # reload bash profile
-source ~/.bash_profile
 source ~/.zshrc
-
 
 # install yarn
 brew install yarn
