@@ -1,5 +1,7 @@
-echo 'atom - Waiting for Atom …'
-while [ ! -f ~/.dotfiles/.atom--installed ]; do sleep 1; done
+echo 'atom - Waiting for brew …'
+while [ ! -f ~/.dotfiles/.brew--installed ]; do sleep 1; done
+
+brew cask install atom
 
 # install plugins
 echo "Atom Packages install"

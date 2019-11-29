@@ -132,6 +132,9 @@ remove_from_dock            -n 'Numbers'
 remove_from_dock            -n 'Keynote'
 remove_from_dock            -n 'Launchpad'
 remove_from_dock            -n 'Siri'
+remove_from_dock            -n 'TV'
+remove_from_dock            -n 'Podcasts'
+remove_from_dock            -n 'Music'
 
 # ----------------------------------------------------------------------------------------
 

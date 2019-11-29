@@ -16,9 +16,6 @@ touch ~/.dotfiles/.mas--installed
 brew cask install visual-studio-code
 touch ~/.dotfiles/.visual-studio-code--installed
 
-brew cask install atom
-touch ~/.dotfiles/.atom--installed
-
 # command line tool for managing dock items
 brew install dockutil
 touch ~/.dotfiles/.dockutil--installed
@@ -33,14 +30,6 @@ brew cask install firefox
 brew cask install whatsapp
 brew cask install bbedit
 brew cask install skype
-
-brew cask install cyberduck
-
-# Delete existing bookmark location
-rm -R ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck
-
-# Dropbox sync to new location using symbolic links
-ln -s ~/Dropbox/Apps/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
 
 
 brew cask install sourcetree
