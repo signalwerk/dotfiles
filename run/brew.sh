@@ -1,8 +1,9 @@
 
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-touch ~/.dotfiles/.brew--installed
+if [ ! -f ~/.dotfiles/.brew--installed ]; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  touch ~/.dotfiles/.brew--installed
+fi
 
 brew cask install 1password
 
@@ -74,6 +75,7 @@ brew install imapfilter
 brew install pandoc
 brew install fonttools
 brew install rename
+brew install bat
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
@@ -113,6 +115,5 @@ brew install heroku
 # cloudfoundry.org
 brew tap cloudfoundry/tap
 brew install cf-cli
-
 
 brew cask install adobe-creative-cloud
