@@ -18,5 +18,6 @@ osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/r
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/ssh.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/python.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/dock.sh"'
+osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/sidebar.sh"'
 
 rm -rf ~/Desktop/CODE_GIT/dotfiles/
