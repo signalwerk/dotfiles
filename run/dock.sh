@@ -1,10 +1,19 @@
 # Dock
 
-echo 'dock - Waiting for Apple Store to finish …'
-while [ ! -f ~/.dotfiles/.appstore--installed ]; do sleep 1; done
+if [ ! -f ~/.dotfiles/.appstore--installed ]; then
+  echo 'dock - Waiting for Apple Store to finish …'
+  while [ ! -f ~/.dotfiles/.appstore--installed ]; do sleep 1; done
+fi
 
-echo 'dock - Waiting for dockutil …'
-while [ ! -f ~/.dotfiles/.dockutil--installed ]; do sleep 1; done
+if [ ! -f ~/.dotfiles/.dockutil--installed ]; then
+  echo 'dock - Waiting for dockutil …'
+  while [ ! -f ~/.dotfiles/.dockutil--installed ]; do sleep 1; done
+fi
+
+if [ ! -f ~/.dotfiles/.brew-apps--installed ]; then
+  echo 'dock - Waiting for brew …'
+  while [ ! -f ~/.dotfiles/.brew-apps--installed ]; do sleep 1; done
+fi
 
 
 echo 'Setting Icons in Dock …'

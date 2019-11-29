@@ -1,6 +1,7 @@
-
-echo 'Apple Store - Waiting for Apple Store CLI …'
-while [ ! -f ~/.dotfiles/.mas--installed ]; do sleep 1; done
+if [ ! -f ~/.dotfiles/.mas--installed ]; then
+  echo 'Apple Store - Waiting for Apple Store CLI …'
+  while [ ! -f ~/.dotfiles/.mas--installed ]; do sleep 1; done
+fi
 
 echo 'Setup Apple Store programs …'
 
@@ -43,4 +44,5 @@ mas_install 1292198261 'HEIC Converter'
 #mas_install 520774149 'String Replacer'
 
 
+# to signal when the docker-tool can run
 touch ~/.dotfiles/.appstore--installed

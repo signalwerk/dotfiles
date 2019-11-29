@@ -106,3 +106,7 @@ brew tap cloudfoundry/tap
 brew install cf-cli
 
 brew cask install adobe-creative-cloud
+
+
+# to signal when the docker-tool can run
+touch ~/.dotfiles/.brew-apps--installed
