@@ -26,15 +26,28 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desk
 defaults write com.apple.finder FXPreferredViewStyle -string clmv
 
 
+# Battery Percentage in status bar
+defaults write com.apple.menuextra.battery ShowPercent -bool true
+
+# ----------------------------------------------------------------------------------------
+# check
+# defaults read com.apple.systemuiserver menuExtras
+
+# Show Bluetooth in menu bar
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+
+# Show volume in menu bar
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+# for restart menuExtras
+killall SystemUIServer
+
+
 ## NOT WORKING!!!!
 # Change "Move focus to next window" shortcut to ⌘<
 # /usr/libexec/PlistBuddy -c "Set :AppleSymbolicHotKeys:51:value:parameters:0 60" ~/Library/Preferences/com.apple.symbolichotkeys.plist
 # /usr/libexec/PlistBuddy -c "Print :AppleSymbolicHotKeys:51:value:parameters:0" ~/Library/Preferences/com.apple.symbolichotkeys.plist
 
-
-# ----------------------------------------------------------------------------------------
-# Battery Percentage in status bar
-defaults write com.apple.menuextra.battery ShowPercent -bool true
 
 
 

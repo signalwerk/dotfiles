@@ -15,6 +15,7 @@ osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/r
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/mac.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/mail.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/finder.sh"'
+osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/computername.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/ssh.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/python.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/Desktop/CODE_GIT/dotfiles/run/dock.sh"'

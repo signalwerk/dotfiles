@@ -44,6 +44,9 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 5
 
+# Start screensaver after: never
+defaults -currentHost write com.apple.screensaver idleTime -int 0
+
 ###############################################################################
 # Apple Applications                                                                      #
 ###############################################################################
