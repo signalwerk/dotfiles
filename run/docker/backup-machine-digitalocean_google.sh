@@ -14,7 +14,7 @@ mkdir -p $BACKUP_DIR
 echo "Backup path: $BACKUP_DIR"
 
 
-DOCKER_MACHINE_DIGITALOCEAN=`docker-machine ls | grep -i "digitalocean" | awk '{ print $1}'`
+DOCKER_MACHINE_DIGITALOCEAN=`docker-machine ls | egrep -i "digitalocean|google" | awk '{ print $1}'`
 
 
 for CURRENT_MACHINE in $DOCKER_MACHINE_DIGITALOCEAN; do

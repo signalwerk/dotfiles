@@ -12,11 +12,12 @@ fi
 
 machine_name=$1
 
-docker-machine status $machine_name 2>&1 > /dev/null
-if [ $? -ne 0 ]; then
-  echo "No such machine found"
-  exit 1
-fi
+# don't check before export
+# docker-machine status $machine_name 2>&1 > /dev/null
+# if [ $? -ne 0 ]; then
+#   echo "No such machine found"
+#   exit 1
+# fi
 
 set -e
 
