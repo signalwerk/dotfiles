@@ -38,10 +38,18 @@ $mysides remove "Creative Cloud Files" &> /dev/null
 # remove Recents:
 $mysides remove "myDocuments.cannedSearch" &> /dev/null
 
-$mysides remove "WORK" &> /dev/null
+
+# temp
 $mysides remove "CODE_GIT" &> /dev/null
-mysides add "WORK" "file://$(readlinkf ~/Dropbox/WORK/)"
 mysides add "CODE_GIT" "file://$(readlinkf ~/Desktop/CODE_GIT/)"
+
+$mysides remove "WORK" &> /dev/null
+mysides add "WORK" "file://$(readlinkf ~/Dropbox/WORK/)"
+
+$mysides remove "CODE_ADDITIONS" &> /dev/null
+mysides add "CODE_ADDITIONS" "file://$(readlinkf ~/Dropbox/CODE_ADDITIONS/)"
+
+
 
 echo 'after'
 $mysides list

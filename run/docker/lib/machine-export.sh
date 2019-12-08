@@ -21,7 +21,7 @@ machine_name=$1
 
 set -e
 
-MACHINE_STORAGE_PATH="${MACHINE_STORAGE_PATH:-"$HOME/.docker/machine"}"
+MACHINE_STORAGE_PATH="${MACHINE_STORAGE_PATH:-"$HOME/CODE/.docker/machine"}"
 machine_path="$MACHINE_STORAGE_PATH/machines/$machine_name"
 tmp_path="/tmp/machine-export-$(date +%s%3)"
 

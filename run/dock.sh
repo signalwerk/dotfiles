@@ -80,9 +80,17 @@ add_to_dock                                       -p '/Applications/Utilities/Te
 
 add_to_dock                                       -p '/Applications/FontExplorer X Pro.app'
 
+
+add_to_dock     -n "InDesign"          -p "/Applications/Adobe InDesign 2020/Adobe InDesign 2020.app"
+add_to_dock     -n "Photoshop"         -p "/Applications/Adobe Photoshop 2020/Adobe Photoshop 2020.app"
+add_to_dock     -n "Illustrator"       -p "/Applications/Adobe Illustrator 2020/Adobe Illustrator.app"
+add_to_dock     -n "Acrobat"           -p "/Applications/Adobe Acrobat DC/Adobe Acrobat.app"
+
+
 add_to_dock                   -n 'Chrome'         -p '/Applications/Google Chrome.app'
 add_to_dock                                       -p '/Applications/Firefox.app'
 add_to_dock                                       -p '/Applications/Safari.app'
+
 
 
 add_to_dock                                       -p '/Applications/Slack.app'
@@ -100,6 +108,10 @@ add_to_dock                                       -p '/Applications/TextEdit.app
 #add_to_dock                                       -p '/Applications/Write.app'
 add_to_dock                                       -p '/Applications/Simplenote.app'
 #add_to_dock                                       -p '/Applications/Pocket.app'
+
+
+
+
 
 add_to_dock                                       -p '/Applications/Tower.app'
 add_to_dock                                       -p '/Applications/SourceTree.app'
@@ -127,6 +139,8 @@ add_to_dock                                       -p '/Applications/Transmission
 add_to_dock                                       -p '/Applications/VLC.app'
 add_to_dock                                       -p '/Applications/Screenshot Helper.app'
 
+
+
 # add_to_dock                                       -p '/Applications/VirtualBox.app'
 
 # ----------------------------------------------------------------------------------------
@@ -144,6 +158,7 @@ remove_from_dock            -n 'Siri'
 remove_from_dock            -n 'TV'
 remove_from_dock            -n 'Podcasts'
 remove_from_dock            -n 'Music'
+remove_from_dock            -n 'Google Chrome'
 
 # ----------------------------------------------------------------------------------------
 

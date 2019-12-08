@@ -3,9 +3,9 @@
 # set Dotfiles
 mkdir -p  ~/.dotfiles/
 
-if [ ! -d "~/Desktop/CODE_GIT/dotfiles" ]; then
-  mkdir -p ~/Desktop/CODE_GIT/
-  cd ~/Desktop/CODE_GIT/
+if [ ! -d "~/CODE/dotfiles" ]; then
+  mkdir -p ~/CODE/
+  cd ~/CODE/
 
   git clone git@github.com:signalwerk/dotfiles.git
 fi

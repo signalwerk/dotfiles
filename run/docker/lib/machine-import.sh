@@ -14,7 +14,7 @@ fi
 
 machine_archive="$1"
 machine_name="${machine_archive/.zip/}"
-MACHINE_STORAGE_PATH="${MACHINE_STORAGE_PATH:-"$HOME/.docker/machine"}"
+MACHINE_STORAGE_PATH="${MACHINE_STORAGE_PATH:-"$HOME/CODE/.docker/machine"}"
 machine_path="$MACHINE_STORAGE_PATH/machines/$machine_name"
 
 if [ -d "$machine_path" ]; then
