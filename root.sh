@@ -23,5 +23,7 @@ osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/python.sh
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/dock.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/sidebar.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/toolbar.sh"'
+osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/zsh-install.sh"'
+osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/zsh-config.sh"'
 
 rm -rf ~/CODE/dotfiles/
