@@ -61,7 +61,7 @@ brew install imapfilter
 brew install pandoc
 brew install fonttools
 brew install rename
-brew install bat
+brew install rhash
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
