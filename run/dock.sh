@@ -131,7 +131,8 @@ add_to_dock                                       -p '/Applications/Slack.app'
 
 add_to_dock                                       -p '/Applications/Pixelmator.app'
 add_to_dock                                       -p '/Applications/ImageOptim.app'
-#add_to_dock                                       -p '/Applications/Affinity Designer.app'
+add_to_dock       -n 'HEIC Converter'             -p '/Applications/iMazing HEIC Converter.app'
+#add_to_dock                                      -p '/Applications/Affinity Designer.app'
 
 
 add_to_dock                                       -p '/Applications/Arq.app'
