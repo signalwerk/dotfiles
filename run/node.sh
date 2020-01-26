@@ -26,6 +26,7 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
 
   # globals
   npm install --global prettier
+  npm install --global eslint
 
   touch ~/.dotfiles/.nvm-installed
 fi
