@@ -13,7 +13,8 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
   touch ~/.dotfiles/.nvm-installed
 fi
 
-# nvm install 8
+# nvm install 0.12
+nvm install 8
 nvm install 10
 nvm install 12
 nvm alias default 12

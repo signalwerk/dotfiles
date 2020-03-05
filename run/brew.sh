@@ -61,11 +61,11 @@ brew install imapfilter
 brew install pandoc
 brew install fonttools
 brew install rename
-brew install bat
+brew install rhash
 
 brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
-brew install imagemagick --use-jpeg2000, --use-cms, --use-rsvg, --use-libtiff, --with-fontconfig
+brew install imagemagick
 brew install ghostscript
 
 # sql
