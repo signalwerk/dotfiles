@@ -19,7 +19,7 @@ if [ ! -f ~/.dotfiles/.zsh--installed ]; then
   sed -i "" "s/^\# ZSH_CUSTOM=.*/ZSH_CUSTOM=\$HOME\/CODE\/dotfiles\/config\/zsh/g" $HOME/.zshrc
 
   # set plugins
-  sed -i "" "s/^plugins=(\(.*\))/plugins=(\1 npm nvm-brew docker-machine golang-brew)/g" $HOME/.zshrc
+  sed -i "" "s/^plugins=(\(.*\))/plugins=(\1 npm nvm-brew docker-machine golang-brew keychain-ssh)/g" $HOME/.zshrc
 
 
 
