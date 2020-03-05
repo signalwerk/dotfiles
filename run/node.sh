@@ -9,6 +9,10 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
 
   # install yarn
   brew install yarn
+  
+  # globals
+  npm install --global prettier
+  npm install --global eslint
 
   touch ~/.dotfiles/.nvm-installed
 fi
