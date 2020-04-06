@@ -85,7 +85,7 @@ brew cask install tunnelblick
 # others
 brew cask install postman
 
-brew cask install mongohub
+# brew cask install mongohub
 # brew cask install paw
 # brew cask install java
 # brew cask install transmit
