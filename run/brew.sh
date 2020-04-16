@@ -25,6 +25,11 @@ brew cask install tower
 brew cask install dropbox
 brew cask install arq
 
+# finder integration of quickrunners
+brew cask install openinterminal-lite
+brew cask install openineditor-lite
+
+
 brew cask install google-backup-and-sync
 brew cask install firefox
 brew cask install whatsapp
