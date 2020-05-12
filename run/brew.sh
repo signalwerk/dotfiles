@@ -90,6 +90,9 @@ brew cask install tunnelblick
 # others
 brew cask install postman
 
+# jest-watch helper (fsevent)
+brew install watchman
+
 # brew cask install mongohub
 # brew cask install paw
 # brew cask install java
