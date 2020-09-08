@@ -101,6 +101,9 @@ brew install go
 # brew cask install ngrok
 # brew cask install google-cloud-sdk
 
+# QR-Code
+brew install qrencode
+
 # liip
 # ——————————
 brew cask install vagrant
