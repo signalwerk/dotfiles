@@ -1,4 +1,7 @@
-# set Dotfiles
+# in this folder we save the progress of the installation
+mkdir -p  ~/.dotfiles/		
+
+# Get code of Dotfiles
 if [ ! -d "~/CODE/dotfiles" ]; then
   echo "Get initial Dotfiles"
   mkdir -p ~/CODE/dotfiles
