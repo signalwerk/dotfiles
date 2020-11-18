@@ -1,5 +1,8 @@
 #!/bin/sh
 
+## curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/master.tar.gz' | /usr/bin/tar -x --strip-components 1
+
+
 # install dotfiles
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/git.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/dotfiles.sh"'
@@ -26,4 +29,4 @@ osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/toolbar.s
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/zsh-install.sh"'
 osascript -e 'tell app "Terminal" to do script "sh ~/CODE/dotfiles/run/zsh-config.sh"'
 
-rm -rf ~/CODE/dotfiles/
+# rm -rf ~/CODE/dotfiles/
