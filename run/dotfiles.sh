@@ -1,5 +1,3 @@
-# curl --progress-bar --location 'https://github.com/signalwerk/dotfiles/archive/master.tar.gz' | /usr/bin/tar -x --strip-components 1
-
 # set Dotfiles
 mkdir -p  ~/.dotfiles/
 
