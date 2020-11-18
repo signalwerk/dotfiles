@@ -1,7 +1,6 @@
 computername=$(scutil --get ComputerName)
 computername=${computername/Stefan’s/signalwerk}
 computername=${computername/ /-}
-computername=${computername/ /-}
 
 # Set computer name (as done via System Preferences → Sharing)
 sudo scutil --set ComputerName "$computername"
