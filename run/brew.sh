@@ -25,17 +25,12 @@ brew cask install tower
 brew cask install dropbox
 brew cask install arq
 
-# finder integration of quickrunners
-brew cask install openinterminal-lite
-brew cask install openineditor-lite
-
 
 brew cask install google-backup-and-sync
 brew cask install firefox
 brew cask install whatsapp
 brew cask install bbedit
 brew cask install skype
-brew cask install postbox
 
 brew cask install sourcetree
 brew cask install vlc
@@ -57,8 +52,8 @@ brew cask install symboliclinker
 brew cask install spotify
 
 # inkscape needs xquartz
-brew cask install xquartz
-brew cask install inkscape
+# brew cask install xquartz
+# brew cask install inkscape
 
 brew install jq
 brew install wget
@@ -78,7 +73,7 @@ brew cask install sequel-pro
 
 
 # rotate jpg
-brew install jhead
+# brew install jhead
 
 # spam
 brew install bogofilter
@@ -102,20 +97,27 @@ brew install go
 # brew cask install google-cloud-sdk
 
 # QR-Code
-brew install qrencode
+# brew install qrencode
+
+
+# finder integration of quickrunners
+brew cask install openinterminal-lite
+brew cask install openineditor-lite
+
 
 # liip
 # ——————————
-brew cask install vagrant
-brew cask install virtualbox
+# brew cask install postbox
+# brew cask install vagrant
+# brew cask install virtualbox
 
 # heroku
-brew tap heroku/brew
-brew install heroku
+# brew tap heroku/brew
+# brew install heroku
 
 # cloudfoundry.org
-brew tap cloudfoundry/tap
-brew install cf-cli
+# brew tap cloudfoundry/tap
+# brew install cf-cli
 
 brew cask install adobe-creative-cloud
 
