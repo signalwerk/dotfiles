@@ -68,10 +68,6 @@ brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx 
 brew install imagemagick
 brew install ghostscript
 
-# sql
-brew cask install sequel-pro
-
-
 # rotate jpg
 # brew install jhead
 
