@@ -92,6 +92,12 @@ brew install go
 # brew cask install ngrok
 # brew cask install google-cloud-sdk
 
+# Python env
+brew install pyenv
+pyenv versions # List Python versions
+# pyenv install 3.6.12
+# pyenv local 3.6.12
+
 # QR-Code
 # brew install qrencode
 
