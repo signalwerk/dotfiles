@@ -16,5 +16,6 @@ brew cask install kitematic
 
 sudo gem install docker-sync
 
+brew install --cask lando
 
 touch ~/.dotfiles/.docker--installed
