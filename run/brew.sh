@@ -113,6 +113,8 @@ brew cask install openineditor-lite
 # brew cask install vagrant
 # brew cask install virtualbox
 
+brew install discord
+
 # heroku
 # brew tap heroku/brew
 # brew install heroku
