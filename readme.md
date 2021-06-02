@@ -2,11 +2,14 @@
 
 
 ## Setup
-```
-## Get Dotfiles
-https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/git.sh | sh
-https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/dotfiles.sh | sh
+```sh
+# Get Dotfiles
+curl https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/git.sh | sh
+curl https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/dotfiles.sh | sh
 
+
+# Setup brew
+sh ~/CODE/dotfiles/run/brew.sh
 ```
 
 ## Inspiration

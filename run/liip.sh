@@ -4,6 +4,7 @@ if [ ! -f ~/.dotfiles/.brew--installed ]; then
 fi
 
 brew install --cask postbox
+brew install discord
 
 # heroku
 brew tap heroku/brew
@@ -12,7 +13,7 @@ brew install heroku
 # cloudfoundry.org
 brew tap cloudfoundry/tap
 brew install cf-cli
-
+brew install --cask lando
 
 if [ ! -f ~/.dotfiles/.vpn--liip-configured ]; then
 

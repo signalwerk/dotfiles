@@ -112,12 +112,13 @@ add_to_dock                                       -p '/Applications/Simplenote.a
 add_to_dock                                       -p '/Applications/Tower.app'
 add_to_dock                                       -p '/Applications/SourceTree.app'
 #add_to_dock                                       -p '/Applications/Paw.app'
-#add_to_dock                                       -p '/Applications/Bee.app'
+add_to_dock                                       -p '/Applications/Sequel Ace.app'
 add_to_dock                                       -p '/Applications/SQLPro for SQLite.app'
 add_to_dock                                       -p '/Applications/Spotify.app'
 
 
 add_to_dock                                       -p '/Applications/ForkLift.app'
+add_to_dock                                       -p '/Applications/Cyberduck.app'
 add_to_dock                                       -p '/Applications/Cyberduck.app'
 
 add_to_dock                                       -p '/Applications/Skype.app'

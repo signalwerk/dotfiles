@@ -35,6 +35,7 @@ mas_install 511230166 'Justnotes'
 mas_install 409203825 'Numbers'
 mas_install 537211143 'PhotoBulk'
 mas_install 1292198261 'HEIC Converter'
+mas_install 1518036000 'Sequel Ace'
 
 #mas_install 412448059 'ForkLift - File Manager and FTP/SFTP/WebDAV/Amazon S3 client'
 #mas_install 726099620 'Bee - Issue Tracking made Native'

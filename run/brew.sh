@@ -59,6 +59,13 @@ brew install --cask spotify
 # brew install --cask xquartz
 # brew install --cask inkscape
 
+
+# Python env
+brew install pyenv
+pyenv versions # List Python versions
+# pyenv install 3.6.12
+# pyenv local 3.6.12
+
 brew install jq
 brew install wget
 brew install imapfilter
@@ -71,10 +78,6 @@ brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
 brew install imagemagick
 brew install ghostscript
-
-# sql
-brew install --cask sequel-pro
-
 
 # rotate jpg
 # brew install jhead
