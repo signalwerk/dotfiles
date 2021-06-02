@@ -21,7 +21,6 @@ apm install atom-beautify
 apm install fast-eslint
 apm install intentions
 apm install linter-ui-default
-apm install language-graphql
 
 # apm install pigments
 # apm install shell-it

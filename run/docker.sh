@@ -11,10 +11,10 @@ if [ ! -f ~/.dotfiles/.docker-env--installed ]; then
 fi
 
 # docker
-brew cask install docker
-brew cask install kitematic
-
+brew install --cask docker
 sudo gem install docker-sync
 
+mkdir -p "$HOME/CODE/.docker/machine"
+echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >> "$HOME/.zprofile"
 
 touch ~/.dotfiles/.docker--installed
