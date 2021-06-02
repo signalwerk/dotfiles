@@ -9,7 +9,8 @@ mysides=/usr/local/bin/mysides
 
 if [ ! -e $mysides ]
   then
-    echo "install mysides..."
+    echo "install mysides... "
+    mkdir -p /usr/local/bin
     git clone https://github.com/mosen/mysides.git
     cd mysides/
     make build
@@ -24,11 +25,6 @@ fi
 
 
 
-readlinkf(){ perl -MCwd -e 'print Cwd::abs_path shift' "$1";}
-
-
-WORK_DIR="file://$(readlinkf ~/Dropbox/WORK/)"
-
 echo 'before'
 $mysides list
 $mysides remove "All My Files" &> /dev/null
@@ -39,15 +35,18 @@ $mysides remove "Creative Cloud Files" &> /dev/null
 $mysides remove "myDocuments.cannedSearch" &> /dev/null
 
 
+
+readlinkf(){ perl -MCwd -e 'print Cwd::abs_path shift' "$1";}
+
 # temp
-$mysides remove "CODE_GIT" &> /dev/null
-mysides add "CODE_GIT" "file://$(readlinkf ~/Desktop/CODE_GIT/)"
+$mysides remove "CODE" &> /dev/null
+$mysides add "CODE" "file://$(readlinkf ~/CODE/)"
 
 $mysides remove "WORK" &> /dev/null
-mysides add "WORK" "file://$(readlinkf ~/Dropbox/WORK/)"
+$mysides add "WORK" "file://$(readlinkf ~/Dropbox/WORK/)"
 
 $mysides remove "CODE_ADDITIONS" &> /dev/null
-mysides add "CODE_ADDITIONS" "file://$(readlinkf ~/Dropbox/CODE_ADDITIONS/)"
+$mysides add "CODE_ADDITIONS" "file://$(readlinkf ~/Dropbox/CODE_ADDITIONS/)"
 
 
 
