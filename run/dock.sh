@@ -78,7 +78,7 @@ remove_from_dock() {
 
 add_to_dock                                       -p '/Applications/Utilities/Terminal.app'
 
-add_to_dock                                       -p '/Applications/FontExplorer X Pro.app'
+add_to_dock      -n "FontExplorer"                -p '/Applications/FontExplorer X Pro.app'
 
 
 add_to_dock     -n "InDesign"          -p "/Applications/Adobe InDesign 2020/Adobe InDesign 2020.app"
@@ -93,14 +93,12 @@ add_to_dock                                       -p '/Applications/Safari.app'
 
 
 
-add_to_dock                                       -p '/Applications/Slack.app'
 
 
 add_to_dock                                       -p '/Applications/Mail.app'
 
 add_to_dock                   -n '1Password'      -p '/Applications/1Password 7.app'
 
-add_to_dock                                       -p '/Applications/Atom.app'
 add_to_dock                   -n 'VSCode'         -p '/Applications/Visual Studio Code.app'
 add_to_dock                                       -p '/Applications/BBEdit.app'
 add_to_dock                                       -p '/Applications/TextEdit.app'
@@ -108,8 +106,6 @@ add_to_dock                                       -p '/Applications/TextEdit.app
 #add_to_dock                                       -p '/Applications/Write.app'
 add_to_dock                                       -p '/Applications/Simplenote.app'
 #add_to_dock                                       -p '/Applications/Pocket.app'
-
-
 
 
 
@@ -129,9 +125,9 @@ add_to_dock                                       -p '/Applications/WhatsApp.app
 add_to_dock                                       -p '/Applications/Slack.app'
 
 
-add_to_dock                                       -p '/Applications/Pixelmator.app'
 add_to_dock                                       -p '/Applications/ImageOptim.app'
-#add_to_dock                                       -p '/Applications/Affinity Designer.app'
+add_to_dock       -n 'HEIC Converter'             -p '/Applications/iMazing HEIC Converter.app'
+#add_to_dock                                      -p '/Applications/Affinity Designer.app'
 
 
 add_to_dock                                       -p '/Applications/Arq.app'
@@ -158,7 +154,6 @@ remove_from_dock            -n 'Siri'
 remove_from_dock            -n 'TV'
 remove_from_dock            -n 'Podcasts'
 remove_from_dock            -n 'Music'
-remove_from_dock            -n 'Google Chrome'
 
 # ----------------------------------------------------------------------------------------
 
@@ -166,7 +161,7 @@ remove_from_dock            -n 'Google Chrome'
 defaults write com.apple.dock autohide -bool true
 
 # Set the icon size of Dock items (in pixel)
-defaults write com.apple.dock tilesize -int 24
+defaults write com.apple.dock tilesize -int 36
 
 # set in place by restarting
 /usr/bin/killall cfprefsd
