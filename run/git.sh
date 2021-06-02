@@ -1,6 +1,4 @@
 # globaly ignore .DS_Store
-echo 'git - Waiting brew beeing installed …'
-
 echo .DS_Store > ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
