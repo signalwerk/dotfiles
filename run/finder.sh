@@ -1,3 +1,6 @@
+# https://github.com/ulwlu/dotfiles/blob/2753a38ee7ab1f5e3c339e10fd722874ccd0b48c/system/macos.sh
+
+
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
@@ -22,8 +25,14 @@ defaults write com.apple.finder NewWindowTarget -string "PfDe"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 
 # Finder: Use column view in all Finder windows by default
-# Four-letter codes for the other view modes: 'icnv', 'clmv', 'Flwv', 'Nlsv'
-defaults write com.apple.finder FXPreferredViewStyle -string clmv
+# - as Icons
+# defaults write com.apple.Finder FXPreferredViewStyle -string icnv
+# - as Columns
+defaults write com.apple.Finder FXPreferredViewStyle -string Nlsv
+# - as Gallary View
+# defaults write com.apple.Finder FXPreferredViewStyle -string clmv
+# - as List
+# defaults write com.apple.Finder FXPreferredViewStyle -string Flwv
 
 
 # Battery Percentage in status bar
@@ -34,10 +43,14 @@ defaults write com.apple.menuextra.battery ShowPercent -bool true
 # defaults read com.apple.systemuiserver menuExtras
 
 # Show Bluetooth in menu bar
-defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+# - Checked
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist Bluetooth -int 18
 
 # Show volume in menu bar
-defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu"
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist Sound -int 18
+
 
 # for restart menuExtras
 killall SystemUIServer
