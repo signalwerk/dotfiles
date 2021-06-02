@@ -44,5 +44,8 @@ mas_install 1292198261 'HEIC Converter'
 #mas_install 520774149 'String Replacer'
 
 
+echo "accept xcode license:"
+sudo xcodebuild -license accept
+
 # to signal when the docker-tool can run
 touch ~/.dotfiles/.appstore--installed
