@@ -1,6 +1,14 @@
 # Dotfiles by Stefan Huber
 
 
+## Setup
+```
+## Get Dotfiles
+https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/git.sh | sh
+https://raw.githubusercontent.com/signalwerk/dotfiles/HEAD/run/dotfiles.sh | sh
+
+```
+
 ## Inspiration
 * https://gist.github.com/vraravam/5e28ca1720c9dddacdc0e6db61e093fe
 * https://github.com/reitermarkus/dotfiles
