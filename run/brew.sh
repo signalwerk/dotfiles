@@ -45,11 +45,13 @@ brew install --cask Kaleidoscope
 brew install --cask alfred
 brew install --cask fontexplorer-x-pro
 brew install --cask imageoptim
-
+brew install --cask figma
+brew install --cask microsoft-teams
 
 brew install --cask sketch
 brew install --cask microsoft-office
 brew install --cask teamviewer
+brew install --cask zoom
 
 # right click symbolic link
 brew install --cask symboliclinker
