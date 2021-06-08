@@ -42,6 +42,7 @@ brew install --cask transmission
 brew install --cask simplenote
 brew install --cask monodraw
 brew install --cask Kaleidoscope
+brew install --cask ksdiff # commandline-tool for kaleidoscope
 brew install --cask alfred
 brew install --cask fontexplorer-x-pro
 brew install --cask imageoptim
