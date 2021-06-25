@@ -35,6 +35,9 @@ defaults write com.apple.Finder FXPreferredViewStyle -string Nlsv
 # defaults write com.apple.Finder FXPreferredViewStyle -string Flwv
 
 
+### Play user interface sound effects: false
+/usr/bin/defaults write com.apple.systemsound 'com.apple.sound.uiaudio.enabled' -int 0
+
 # Battery Percentage in status bar
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
