@@ -118,7 +118,6 @@ brew install go
 
 # custom status-bar
 brew install swiftbar
-brew install --cask anybar
 
 
 # finder integration of quickrunners
