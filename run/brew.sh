@@ -116,6 +116,10 @@ brew install go
 # brew install qrencode
 
 
+# custom status-bar
+brew install swiftbar
+
+
 # finder integration of quickrunners
 brew install --cask openinterminal-lite
 brew install --cask openineditor-lite
