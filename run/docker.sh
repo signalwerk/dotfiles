@@ -17,7 +17,4 @@ sudo gem install docker-sync
 mkdir -p "$HOME/CODE/.docker/machine"
 echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >> "$HOME/.zprofile"
 
-# first use of docker to have my notes-app ready
-docker run --rm -v ~/Applications:/target/ nativefier/nativefier https://notzer.signalwerk.ch/ /target/
-
 touch ~/.dotfiles/.docker--installed
