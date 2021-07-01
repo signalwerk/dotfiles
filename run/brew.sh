@@ -118,13 +118,12 @@ brew install go
 
 # custom status-bar
 brew install swiftbar
+defaults write com.ameba.Swiftbar PluginDirectory /Users/signalwerk/Dropbox/__PREFS__/SwiftBar
 
 
 # finder integration of quickrunners
 brew install --cask openinterminal-lite
 brew install --cask openineditor-lite
-
-
 
 
 brew install --cask adobe-creative-cloud
