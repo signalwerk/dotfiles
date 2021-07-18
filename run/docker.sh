@@ -12,6 +12,7 @@ fi
 
 # docker
 brew install --cask docker
+brew install docker-machine
 sudo gem install docker-sync
 
 mkdir -p "$HOME/CODE/.docker/machine"
