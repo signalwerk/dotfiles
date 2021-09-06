@@ -54,6 +54,8 @@ brew install --cask microsoft-office
 brew install --cask teamviewer
 brew install --cask zoom
 
+brew install --cask graphiql
+
 # right click symbolic link
 brew install --cask symboliclinker
 brew install --cask spotify
