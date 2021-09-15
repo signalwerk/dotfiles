@@ -27,4 +27,4 @@ fi
 nvm install 8
 nvm install 10
 nvm install 12
-nvm alias default 12
+nvm alias default 16
