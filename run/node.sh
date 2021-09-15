@@ -24,7 +24,8 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
 fi
 
 # nvm install 0.12
-nvm install 8
-nvm install 10
+# nvm install 8
+# nvm install 10
 nvm install 12
+nvm install 16
 nvm alias default 16
