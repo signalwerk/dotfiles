@@ -83,6 +83,7 @@ brew install lftp
 brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
 brew install imagemagick
 brew install ghostscript
+brew install woff2
 
 # rotate jpg
 # brew install jhead
