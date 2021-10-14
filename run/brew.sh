@@ -55,6 +55,7 @@ brew install --cask teamviewer
 brew install --cask zoom
 
 brew install --cask graphiql
+brew install --cask gitup
 
 # right click symbolic link
 brew install --cask symboliclinker
