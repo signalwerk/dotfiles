@@ -61,6 +61,10 @@ brew install --cask gitup
 brew install --cask symboliclinker
 brew install --cask spotify
 
+
+brew install --cask discord
+
+
 # inkscape needs xquartz
 # brew install --cask xquartz
 # brew install --cask inkscape
