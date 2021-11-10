@@ -63,6 +63,7 @@ brew install --cask spotify
 
 
 brew install --cask discord
+brew install telegram
 
 
 # inkscape needs xquartz
@@ -89,6 +90,7 @@ brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx 
 brew install imagemagick
 brew install ghostscript
 brew install woff2
+
 
 # rotate jpg
 # brew install jhead
