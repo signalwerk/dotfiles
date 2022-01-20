@@ -10,6 +10,7 @@ if [ ! -f ~/.dotfiles/.brew--installed ]; then
 fi
 
 brew install 1password
+brew install --cask 1password-cli
 
 brew install --cask visual-studio-code
 touch ~/.dotfiles/.visual-studio-code--installed
