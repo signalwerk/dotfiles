@@ -7,8 +7,8 @@ brew install --cask postbox
 brew install discord
 
 # heroku
-brew tap heroku/brew
-brew install heroku
+# brew tap heroku/brew
+# brew install heroku
 
 # cloudfoundry.org
 brew tap cloudfoundry/tap
