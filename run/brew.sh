@@ -126,9 +126,6 @@ brew install go
 # QR-Code
 # brew install qrencode
 
-# keyoard automation
-brew install --cask karabiner-elements
-
 # custom status-bar
 brew install swiftbar
 defaults write com.ameba.Swiftbar PluginDirectory /Users/signalwerk/Dropbox/__PREFS__/SwiftBar
