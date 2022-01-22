@@ -15,7 +15,7 @@ brew install --cask docker
 brew install docker-machine
 sudo gem install docker-sync
 
-mkdir -p "$HOME/CODE/.docker/machine"
-echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >> "$HOME/.zprofile"
+# mkdir -p "$HOME/CODE/.docker/machine"
+# echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >> "$HOME/.zprofile"
 
 touch ~/.dotfiles/.docker--installed

@@ -9,10 +9,10 @@ while [ ! -d ~/Dropbox/Apps/Cyberduck/duck ]; do sleep 1; done
 
 
 if [ ! -f ~/.dotfiles/.brew--cyberduck ]; then
-  # Delete existing bookmark location
+  # delete existing location
   rm -Rf ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck
 
-  # Dropbox sync to new location using symbolic links
+  # sync to new location using symbolic links
   mkdir -p ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
   ln -s ~/Dropbox/Apps/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
 
