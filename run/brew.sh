@@ -1,3 +1,5 @@
+# in this folder we save the progress of the installation
+mkdir -p  ~/.dotfiles/	
 
 # install brew
 if [ ! -f ~/.dotfiles/.brew--installed ]; then
@@ -11,11 +13,15 @@ fi
 
 brew install 1password
 brew install --cask 1password-cli
+echo "ℹ️ 1password is ready to login/use"
+
+brew install --cask dropbox
+echo "ℹ️ dropbox is ready to login/use"
+
+brew install --cask google-chrome
 
 brew install --cask visual-studio-code
 touch ~/.dotfiles/.visual-studio-code--installed
-
-brew install --cask google-chrome
 
 # Apple Store CLI
 brew install mas
@@ -26,12 +32,9 @@ brew install dockutil
 touch ~/.dotfiles/.dockutil--installed
 
 brew install --cask tower
-
-brew install --cask dropbox
 brew install --cask arq
 
-
-brew install --cask google-backup-and-sync
+brew install --cask google-drive
 brew install --cask firefox
 brew install --cask whatsapp
 brew install --cask bbedit
@@ -43,7 +46,6 @@ brew install --cask transmission
 brew install --cask simplenote
 brew install --cask monodraw
 brew install --cask Kaleidoscope
-brew install --cask ksdiff # commandline-tool for kaleidoscope
 brew install --cask alfred
 brew install --cask fontexplorer-x-pro
 brew install --cask imageoptim
@@ -87,7 +89,7 @@ brew install rename
 brew install rhash
 
 brew install lftp
-brew install ffmpeg --with-libass --with-openssl --with-libvorbis --with-libvpx --with-theora
+brew install ffmpeg
 brew install imagemagick
 brew install ghostscript
 brew install woff2
