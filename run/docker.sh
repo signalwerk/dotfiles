@@ -6,7 +6,7 @@ fi
 mkdir -p "~/CODE/.docker/machine"
 
 if [ ! -f ~/.dotfiles/.docker-env--installed ]; then
-  echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >>~/.zshrc
+  echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >>~/.zprofile
   touch ~/.dotfiles/.docker-env--installed
 fi
 
@@ -15,7 +15,5 @@ brew install --cask docker
 brew install docker-machine
 sudo gem install docker-sync
 
-# mkdir -p "$HOME/CODE/.docker/machine"
-# echo 'export MACHINE_STORAGE_PATH="$HOME/CODE/.docker/machine"' >> "$HOME/.zprofile"
 
 touch ~/.dotfiles/.docker--installed
