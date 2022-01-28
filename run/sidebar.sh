@@ -16,7 +16,7 @@ if [ ! -e $mysides ]
     make build
     cd build/Release
 
-    cp mysides "${mysides}"
+    sudo cp mysides "${mysides}"
     cd ../../../
     rm -rf mysides
   else
@@ -30,6 +30,7 @@ $mysides list
 $mysides remove "All My Files" &> /dev/null
 $mysides remove "Documents" &> /dev/null
 $mysides remove "Downloads" &> /dev/null
+$mysides remove "Recents" &> /dev/null
 $mysides remove "Creative Cloud Files" &> /dev/null
 # remove Recents:
 $mysides remove "myDocuments.cannedSearch" &> /dev/null

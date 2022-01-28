@@ -63,6 +63,7 @@ brew install --cask spotify
 
 brew install --cask discord
 brew install telegram
+brew install --cask signal
 
 
 # inkscape needs xquartz
@@ -131,11 +132,6 @@ brew install --cask adobe-creative-cloud
 brew install --cask resilio-sync
 
 brew install cloudflare-wrangler
-
-# set env
-echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> "$HOME/.zprofile"
-eval $(/opt/homebrew/bin/brew shellenv)
-
 
 # to signal when the docker-tool can run
 touch ~/.dotfiles/.brew-apps--installed

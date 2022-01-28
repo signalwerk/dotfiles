@@ -15,7 +15,7 @@ SAVEHIST=10000
 HISTSIZE=50000
 
 # share history across multiple zsh sessions
-setopt SHARE_HISTORY
+# setopt SHARE_HISTORY
 # append to history
 setopt APPEND_HISTORY
 
@@ -38,7 +38,7 @@ setopt HIST_REDUCE_BLANKS
 
 EOL
 
-# reload bash profile
+# reload profile
 source ~/.zshrc
 
 touch ~/.dotfiles/.zsh-history-installed
