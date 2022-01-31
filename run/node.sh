@@ -13,6 +13,8 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
   echo '[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion' >> "$HOME/.zprofile"
   echo '# -- nvm - end --' >> "$HOME/.zprofile"
 
+  touch ~/.dotfiles/.nvm--installed
+
   # install yarn
   brew install yarn
   
@@ -20,8 +22,10 @@ if [ ! -f ~/.dotfiles/.nvm--installed ]; then
   npm install --global prettier
   npm install --global eslint
 
-  touch ~/.dotfiles/.nvm-installed
 fi
+
+# reload profile
+source ~/.zprofile
 
 # nvm install 0.12
 # nvm install 8
