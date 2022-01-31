@@ -1,0 +1,135 @@
+[
+	{
+		"enabled": true,
+		"id": "f8864810-bed7-4636-b0f5-45eb0efe790a",
+		"name": "Migros Karriere",
+		"filter": {
+			"key": "page-url",
+			"condition": "starts-with",
+			"value": "https://dev.migros-gruppe.jobs"
+		},
+		"rules": [
+			{
+				"enabled": true,
+				"id": "90b8e38a-4c6c-4dfe-a26c-a10657df1edd",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/css/(themeBase|chunk-vendors|vueSearchJobs|trialApprenticeship)\\.css\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/no-new.css"
+						}
+					}
+				],
+				"description": "No need during development for that (HMR)"
+			},
+			{
+				"enabled": true,
+				"id": "de197a36-204f-4c78-af89-69b09094d685",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/js/themeBase\\.js\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/themes/custom/ekw/js/themeBase.js"
+						}
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "b88071a7-d558-4c25-82c9-0a651dd553b6",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/js/chunk-vendors.js\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/themes/custom/ekw/js/chunk-vendors.js"
+						}
+					}
+				],
+				"description": "No need during development for that (HMR)"
+			},
+			{
+				"enabled": true,
+				"id": "c92d09a1-c2e9-4e2e-af6e-a6a1b9767565",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/js/trialApprenticeship\\.js\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/themes/custom/ekw/js/trialApprenticeship.js"
+						}
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "31353ad7-ed68-4f7a-a974-a261ef597b3d",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/js/vueSearchJobs\\.js\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/themes/custom/ekw/js/vueSearchJobs.js"
+						}
+					}
+				]
+			},
+			{
+				"enabled": false,
+				"id": "98078473-273e-4e00-b682-b5719181355b",
+				"criteria": {
+					"key": "url",
+					"condition": "starts-with",
+					"value": "https://localhost:8099/sockjs-node/info?t="
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/sockjs-node/info?t=0"
+						}
+					}
+				]
+			},
+			{
+				"enabled": true,
+				"id": "df87ba5a-56c9-47e6-9622-dd8554300b7f",
+				"criteria": {
+					"key": "url",
+					"condition": "regex",
+					"value": "/themes/custom/ekw/dist/js/chunk-common\\.js\\?.+"
+				},
+				"actions": [
+					{
+						"type": "redirect-to",
+						"details": {
+							"value": "http://localhost:8099/themes/custom/ekw/js/chunk-common.js"
+						}
+					}
+				]
+			}
+		]
+	}
+]
