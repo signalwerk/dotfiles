@@ -95,6 +95,9 @@ brew install woff2
 # rotate jpg
 # brew install jhead
 
+# optimize png
+brew install optipng
+
 # spam
 brew install bogofilter
 
