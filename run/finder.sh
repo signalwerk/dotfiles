@@ -41,6 +41,12 @@ defaults write com.apple.Finder FXPreferredViewStyle -string Nlsv
 # Battery Percentage in status bar
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
+
+# ----------------------------------------------------------------------------------------
+# display the app switcher on all monitors 
+defaults write com.apple.dock appswitcher-all-displays -bool true
+killall Dock
+
 # ----------------------------------------------------------------------------------------
 # check
 # defaults read com.apple.systemuiserver menuExtras
