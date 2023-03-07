@@ -138,3 +138,6 @@ brew install cloudflare-wrangler
 
 # to signal when the docker-tool can run
 touch ~/.dotfiles/.brew-apps--installed
+
+# show keystrokes on screen
+brew install --cask keycastr
