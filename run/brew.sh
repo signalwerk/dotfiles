@@ -37,6 +37,7 @@ brew install --cask bbedit
 brew install --cask skype
 
 brew install --cask sourcetree
+brew install --cask meld
 brew install --cask vlc
 brew install --cask transmission
 brew install --cask simplenote
