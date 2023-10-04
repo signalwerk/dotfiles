@@ -50,7 +50,6 @@ brew install --cask figma
 brew install --cask microsoft-teams
 
 brew install --cask sketch
-brew install --cask microsoft-office
 brew install --cask teamviewer
 brew install --cask zoom
 
