@@ -11,10 +11,6 @@ if [ ! -f ~/.dotfiles/.brew--installed ]; then
   touch ~/.dotfiles/.brew--installed
 fi
 
-brew install 1password
-brew install --cask 1password-cli
-echo "ℹ️ 1password is ready to login/use"
-
 brew install --cask dropbox
 echo "ℹ️ dropbox is ready to login/use"
 
@@ -39,6 +35,7 @@ brew install --cask skype
 brew install --cask sourcetree
 brew install --cask meld
 brew install --cask vlc
+brew install --cask iina # vlc next
 brew install --cask transmission
 brew install --cask simplenote
 brew install --cask monodraw
