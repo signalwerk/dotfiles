@@ -11,6 +11,8 @@ if [ ! -f ~/.dotfiles/.brew--installed ]; then
   touch ~/.dotfiles/.brew--installed
 fi
 
+# SQL client «Sequel Ace» from app-store
+
 brew install --cask dropbox
 echo "ℹ️ dropbox is ready to login/use"
 

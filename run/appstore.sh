@@ -40,7 +40,7 @@ mas_install 511230166 'Justnotes'
 mas_install 409203825 'Numbers'
 mas_install 537211143 'PhotoBulk'
 mas_install 1292198261 'HEIC Converter'
-mas_install 1518036000 'Sequel Ace'
+mas_install 1518036000 'Sequel Ace' # SQL client
 mas_install 585829637 'Todoist'
 mas_install 1518425043 'Boop'
 mas_install 497799835 'Xcode'
