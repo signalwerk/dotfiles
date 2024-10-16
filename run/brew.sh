@@ -27,6 +27,7 @@ touch ~/.dotfiles/.dockutil--installed
 
 brew install --cask tower
 brew install --cask arq
+brew install --cask vorta # borgbackup GUI
 
 brew install --cask google-drive
 brew install --cask firefox
@@ -90,6 +91,7 @@ brew install imagemagick
 brew install ghostscript
 brew install woff2
 
+brew install borgbackup
 
 # rotate jpg
 # brew install jhead
