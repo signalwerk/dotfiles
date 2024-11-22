@@ -5,7 +5,7 @@ brew install --cask cyberduck
 
 
 echo 'cyberduck - Waiting for Dropbox …'
-while [ ! -d ~/Dropbox/Apps/Cyberduck/duck ]; do sleep 1; done
+while [ ! -d ~/Dropbox/__PREFS__/Cyberduck/duck ]; do sleep 1; done
 
 
 if [ ! -f ~/.dotfiles/.brew--cyberduck ]; then
@@ -14,7 +14,7 @@ if [ ! -f ~/.dotfiles/.brew--cyberduck ]; then
 
   # sync to new location using symbolic links
   mkdir -p ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
-  ln -s ~/Dropbox/Apps/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
+  ln -s ~/Dropbox/__PREFS__/Cyberduck/duck ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support
 
   touch ~/.dotfiles/.brew--cyberduck
 fi
