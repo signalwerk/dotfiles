@@ -65,6 +65,8 @@ brew install --cask discord
 brew install telegram
 brew install --cask signal
 
+## CURD client
+brew install bruno
 
 # inkscape needs xquartz
 # brew install --cask xquartz
