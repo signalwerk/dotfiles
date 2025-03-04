@@ -28,7 +28,7 @@ mas_install() {
 # echo -b 'Updating App Store Applications …'
 # mas upgrade
 
-mas_install 1179623856 'Pastebot'
+# mas_install 1179623856 'Pastebot'
 # mas_install 890031187 'Marked 2'
 mas_install 497270775 'Screenshot Helper'
 mas_install 407963104 'Pixelmator'
