@@ -44,6 +44,7 @@ brew install --cask simplenote
 brew install --cask monodraw
 brew install --cask Kaleidoscope
 brew install --cask alfred
+brew install --cask maccy
 brew install --cask fontexplorer-x-pro
 brew install --cask imageoptim
 brew install --cask figma
