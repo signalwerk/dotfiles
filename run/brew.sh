@@ -105,7 +105,7 @@ brew install optipng
 # spam
 brew install bogofilter
 
-
+brew install bitwarden
 
 # others
 brew install --cask postman
