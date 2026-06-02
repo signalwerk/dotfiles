@@ -107,6 +107,9 @@ brew install bogofilter
 
 brew install bitwarden
 
+# menu bar manager
+brew install thaw
+
 # others
 brew install --cask postman
 
